@@ -1,0 +1,6 @@
+version: '3'
+services:
+  app:
+    command: bash -c "go build -o main.go  && ls"
+    environment:
+      - ENV=production
